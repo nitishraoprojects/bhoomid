@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en" style=""><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bhumi Developer | Trusted Land Developers in Kushinagar</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "background": "#fcf9f8",
+                        "surface-bright": "#fcf9f8",
+                        "primary-container": "#1b4332",
+                        "on-primary-container": "#86af99",
+                        "on-tertiary-fixed-variant": "#474744",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-dim": "#dcd9d9",
+                        "secondary-fixed-dim": "#e9bcb0",
+                        "secondary-fixed": "#ffdbd1",
+                        "primary-fixed": "#c1ecd4",
+                        "primary": "#012d1d",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-high": "#eae7e7",
+                        "tertiary-container": "#3c3c39",
+                        "error-container": "#ffdad6",
+                        "on-surface-variant": "#414844",
+                        "outline-variant": "#c1c8c2",
+                        "secondary": "#79564c",
+                        "on-secondary-fixed-variant": "#5f3f36",
+                        "on-background": "#1b1c1c",
+                        "tertiary-fixed-dim": "#c8c6c2",
+                        "surface-container-highest": "#e4e2e1",
+                        "on-surface": "#1b1c1c",
+                        "on-secondary-container": "#79574d",
+                        "on-secondary-fixed": "#2d150e",
+                        "primary-fixed-dim": "#a5d0b9",
+                        "on-primary": "#ffffff",
+                        "surface": "#fcf9f8",
+                        "on-primary-fixed-variant": "#274e3d",
+                        "surface-container": "#f0eded",
+                        "inverse-surface": "#303030",
+                        "on-tertiary-container": "#a8a6a3",
+                        "tertiary-fixed": "#e5e2de",
+                        "inverse-primary": "#a5d0b9",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed": "#002114",
+                        "outline": "#717973",
+                        "tertiary": "#262624",
+                        "on-tertiary-fixed": "#1c1c19",
+                        "inverse-on-surface": "#f3f0f0",
+                        "on-error-container": "#93000a",
+                        "surface-tint": "#3f6653",
+                        "on-secondary": "#ffffff",
+                        "surface-container-low": "#f6f3f2",
+                        "secondary-container": "#fed0c3",
+                        "error": "#ba1a1a",
+                        "surface-variant": "#e4e2e1"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "container-max": "1280px",
+                        "unit": "4px",
+                        "stack-sm": "8px",
+                        "margin-desktop": "64px",
+                        "stack-md": "16px",
+                        "stack-lg": "32px",
+                        "gutter": "24px",
+                        "section-gap": "80px",
+                        "margin-mobile": "20px"
+                    },
+                    "fontFamily": {
+                        "caption": ["\"Source Sans 3\""],
+                        "body-lg": ["\"Source Sans 3\""],
+                        "body-md": ["\"Source Sans 3\""],
+                        "headline-md": ["Montserrat"],
+                        "headline-md-mobile": ["Montserrat"],
+                        "title-lg": ["Montserrat"],
+                        "display-lg-mobile": ["Montserrat"],
+                        "label-md": ["\"Source Sans 3\""],
+                        "display-lg": ["Montserrat"]
+                    },
+                    "fontSize": {
+                        "caption": ["12px", { "lineHeight": "16px", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+                        "headline-md-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "title-lg": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
+                        "display-lg-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { background-color: #fcf9f8; color: #1b1c1c; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    </style>
+</head>
+<body class="font-body-md text-on-background bg-background antialiased flex flex-col min-h-screen">
+<!-- TopNavBar -->
+<header class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-margin-desktop h-20 bg-surface/95 backdrop-blur-sm border-b border-outline-variant">
+<div class="font-headline-md text-headline-md font-bold text-primary">
+            Bhumi Developer
+        </div>
+<nav class="hidden md:flex space-x-stack-lg">
+<a class="font-caption text-caption uppercase tracking-wider text-primary font-bold border-b-2 border-primary pb-1" href="#home">Home</a>
+<a class="font-caption text-caption uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors duration-200" href="#properties">Properties</a>
+<a class="font-caption text-caption uppercase tracking-wider text-on-surface-variant hover:text-primary transition-colors duration-200" href="#about">About</a>
+</nav>
+<button class="bg-primary text-on-primary px-stack-lg py-stack-sm rounded font-label-md text-label-md scale-95 duration-150 hover:bg-primary-container transition-colors hidden md:flex items-center gap-unit">
+<svg class="w-5 h-5 fill-current" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg>
+            WhatsApp Us
+        </button>
+<!-- Mobile Menu Icon (Placeholder) -->
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</header>
+<!-- Main Content -->
+<main class="flex-grow pt-20">
+<!-- Hero Section -->
+<section class="relative h-[80vh] flex items-center justify-center overflow-hidden" id="home">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center" data-alt="A wide angle photograph of a vast, pristine green plot of land in Kushinagar bathed in warm morning sunlight. The scene is expansive and peaceful, conveying a sense of grounded opportunity. Subtle architectural grid lines are lightly overlaid in the sky area to suggest development and structure. The color palette emphasizes rich earth tones, deep forest greens, and a clear, soft blue sky. The lighting is natural and inviting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBVc__fVkUt4qkIxi9e6KLfB1q8tsFILlGfiU2dJDuz4O64WV5a3IIWbUeXv9psrHcMdMK7hg8VyXRL0C_gABt5PrHVyCxVCJbzlDBlrpnoJMdeQqWQ87H_jgCtiZZtLikokLecAr_dojQuLgUh5V2s-Wz52ukVwMgHuhdRWDyCZGt20JpdKVKlFsdfoMctd7BdfAHBXk17tR30L041P2VETdfrNTyJUaJIa576StmWPLwYs2nVw7jHrRaaxBISJSzd2Z3pfw-hImE')"></div>
+<div class="absolute inset-0 bg-primary/40 mix-blend-multiply"></div>
+</div>
+<div class="relative z-10 text-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-on-primary mb-stack-md drop-shadow-md">
+                    Trusted Land Developers in Kushinagar
+                </h1>
+<p class="font-body-lg text-body-lg text-surface-bright max-w-2xl mx-auto mb-stack-lg drop-shadow">
+                    10 Years of Excellence under the leadership of Munna Singh (Suryanarayan Singh).
+                </p>
+<div class="flex flex-col sm:flex-row justify-center gap-stack-md">
+<a class="bg-primary text-on-primary px-stack-lg py-stack-md rounded font-label-md text-label-md hover:bg-primary-container transition-colors shadow-sm inline-block" href="#properties">
+                        Explore Properties
+                    </a>
+<button class="bg-surface text-primary px-stack-lg py-stack-md rounded font-label-md text-label-md border border-primary hover:bg-surface-container-low transition-colors shadow-sm flex items-center justify-center gap-unit">
+<svg class="w-5 h-5 fill-[#25D366]" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg>
+                        Chat on WhatsApp
+                    </button>
+</div>
+</div>
+</section>
+<!-- Stats Section -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface">
+<div class="max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter text-center">
+<div class="p-stack-md">
+<div class="font-display-lg text-primary mb-unit">500+ Acres</div>
+<div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Land Successfully Plotted</div>
+</div>
+<div class="p-stack-md border-t md:border-t-0 md:border-l border-outline-variant">
+<div class="font-display-lg text-primary mb-unit">1,200+</div>
+<div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Happy Families</div>
+</div>
+<div class="p-stack-md border-t md:border-t-0 md:border-l border-outline-variant">
+<div class="font-display-lg text-primary mb-unit">100%</div>
+<div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Transparency in Registry</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Key Features (Bento Grid) -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-lowest">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-stack-lg">
+<h2 class="font-headline-md-mobile md:font-headline-md text-headline-md-mobile md:text-headline-md text-primary mb-unit">Why Choose Bhumi Developer?</h2>
+<div class="w-16 h-1 bg-secondary mx-auto"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Feature 1 -->
+<div class="bg-surface p-stack-lg rounded border border-outline-variant hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center group">
+<div class="w-16 h-16 rounded-full bg-primary-fixed flex items-center justify-center mb-stack-md group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-3xl">handshake</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary mb-stack-sm">Transparent Deals</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">We believe in absolute clarity. Every transaction is open, honest, and documented for your peace of mind.</p>
+</div>
+<!-- Feature 2 -->
+<div class="bg-surface p-stack-lg rounded border border-outline-variant hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center group">
+<div class="w-16 h-16 rounded-full bg-primary-fixed flex items-center justify-center mb-stack-md group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-3xl">gavel</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary mb-stack-sm">Hassle-free Registry</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Our expert legal team ensures smooth, compliant, and swift property registration processes.</p>
+</div>
+<!-- Feature 3 -->
+<div class="bg-surface p-stack-lg rounded border border-outline-variant hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center group">
+<div class="w-16 h-16 rounded-full bg-primary-fixed flex items-center justify-center mb-stack-md group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-3xl">map</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary mb-stack-sm">Prime Plotting Lands</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Strategically located plots in Kushinagar promising high returns and perfect residential settings.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- About / Meet the Founder -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-low" id="about">
+<div class="max-w-container-max mx-auto">
+<div class="flex flex-col lg:flex-row items-center gap-stack-lg">
+<div class="w-full lg:w-1/2 aspect-square max-w-[400px]">
+<img class="w-full h-full object-cover rounded shadow-md border border-outline-variant" data-alt="A professional portrait of an experienced Indian real estate developer standing confidently on a development site. The subject is dressed in smart casual business attire suitable for the field. The background features slightly blurred construction elements and green landscape under a bright, clear sky. The lighting highlights a trustworthy and seasoned expression, reflecting a decade of established presence. The color palette incorporates earthy browns, muted greens, and sharp corporate navy tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDK_c2-Xz6mNaq7ocbOdnC1SY0BOzsoRHzh1sufWcNhqdGwSHdaz0ImDtUZg8Rjz3q4PWwUW4UU9HiKrZb5AQPKAH2EK4jVbVb55f5-6eoaP8Bu88p0LiNFQCLF4vRxp2LuiDZeRQBZEgqKJLGiHLrqUIBE1vCn2OIq5z2I_Fx5275Mayb5vO1knd90uteTNKfZKQIi8z8nsUGUmrOResVCyuDUaHQf28bW8yezYj4Lat731adRNOeuhxAztG-hSn18szvxDEp0GA0"/>
+</div>
+<div class="w-full lg:w-1/2">
+<h2 class="font-headline-md-mobile md:font-headline-md text-headline-md-mobile md:text-headline-md text-primary mb-stack-sm">Meet the Founder</h2>
+<h3 class="font-title-lg text-title-lg text-secondary mb-stack-md">Munna Singh (Suryanarayan Singh)</h3>
+<div class="w-16 h-1 bg-secondary mb-stack-lg"></div>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-stack-md">
+                            With over a decade of dedicated service in Kushinagar's real estate sector, Munna Singh has established Bhumi Developer as a cornerstone of trust and quality. His vision is rooted in the deep connection between people and land.
+                        </p>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-lg">
+                            Under his leadership, the company has transformed countless dreams into reality, providing secure, verified, and strategically located plots. His commitment to transparent dealings and community growth remains the guiding force of Bhumi Developer.
+                        </p>
+<div class="flex items-center space-x-stack-sm text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined">workspace_premium</span>
+<span class="">10+ Years of Trust</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Premium Plotting Lands -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-lowest" id="properties">
+<div class="max-w-container-max mx-auto">
+<div class="mb-stack-lg">
+<h2 class="font-headline-md-mobile md:font-headline-md text-headline-md-mobile md:text-headline-md text-primary mb-unit">Premium Plotting Lands</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-section-gap">Discover prime locations in Kasia and Kushinagar, developed with 10 years of trusted excellence.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Card 1 -->
+<article class="bg-surface border border-outline-variant rounded-lg overflow-hidden flex flex-col hover:shadow-lg transition-shadow duration-300 group">
+<div class="relative h-64 overflow-hidden bg-surface-variant">
+<div class="bg-cover bg-center w-full h-full group-hover:scale-105 transition-transform duration-500" data-alt="A high-quality architectural visualization of a spacious, perfectly leveled plotting land in a developing residential area. The land is marked with clean white boundary lines. The scene is bathed in golden hour sunlight, highlighting the rich, earthy tones of the soil against a backdrop of distant lush green trees and a clear blue sky. The atmosphere is serene and promising, conveying stability and premium real estate development. The aesthetic is modern, grounded, and highly professional, utilizing the 'Bhumi' design system palette of forest greens, silt browns, and neutral earth tones." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDCNrfFyn63-4GkbQV1rpFp9ibPH9SkoxJkz7zWdMGPtCKVygY0l4_QtD6JOYIZN4d4GZBx7tLPAHPstEutOE0nDS8GB4KtB5q3n0a-rYwh9ri9zk8kJHoI14etFQwKxo8kop7jwqCfRlgsNhoBCms_npccK19N-w8irLs45RI57DMGxtNOF-6DfHzA_-JDMkM5rdm3wrB_NJ3D89BBoVFRF0g_TlbWdSYMm7gqS2GkjfhHwEovN0Lz1oZHm8MI6x8sy_llUc31dHQ')"></div>
+<div class="absolute top-stack-sm left-stack-sm flex flex-col gap-unit">
+<span class="bg-tertiary text-on-tertiary px-stack-sm py-unit rounded-sm font-caption text-caption flex items-center gap-unit w-max">
+<span class="material-symbols-outlined text-[16px]" data-icon="verified">verified</span> Verified Land
+                            </span>
+<span class="bg-secondary text-on-secondary px-stack-sm py-unit rounded-sm font-caption text-caption flex items-center gap-unit w-max">
+<span class="material-symbols-outlined text-[16px]" data-icon="description">description</span> Transparent Paperwork
+                            </span>
+</div>
+</div>
+<div class="p-stack-lg flex-grow flex flex-col">
+<div class="flex justify-between items-start mb-stack-md">
+<div>
+<h3 class="font-title-lg text-title-lg text-primary mb-unit">Sunrise Enclave</h3>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-unit">
+<span class="material-symbols-outlined text-[18px]" data-icon="location_on">location_on</span> Kasia Main Road
+                                </p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-stack-sm mb-stack-lg bg-surface-container-low p-stack-sm rounded border border-outline-variant/50">
+<div class="flex flex-col">
+<span class="font-caption text-caption text-on-surface-variant">Plot Size</span>
+<span class="font-label-md text-label-md text-primary">1200 Sq. Ft.</span>
+</div>
+<div class="flex flex-col">
+<span class="font-caption text-caption text-on-surface-variant">Facing</span>
+<span class="font-label-md text-label-md text-primary">East</span>
+</div>
+</div>
+<div class="mt-auto flex items-end justify-between pt-stack-md border-t border-outline-variant/30">
+<div>
+<span class="block font-caption text-caption text-on-surface-variant">Starting Price</span>
+<span class="font-headline-md text-headline-md text-primary">₹18.5L</span>
+</div>
+<button class="border border-primary text-primary px-stack-md py-stack-sm rounded font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-colors">
+                                Request Details
+                            </button>
+</div>
+</div>
+</article>
+<!-- Card 2 -->
+<article class="bg-surface border border-outline-variant rounded-lg overflow-hidden flex flex-col hover:shadow-lg transition-shadow duration-300 group">
+<div class="relative h-64 overflow-hidden bg-surface-variant">
+<div class="bg-cover bg-center w-full h-full group-hover:scale-105 transition-transform duration-500" data-alt="A professional drone-shot view of a neatly divided plotting project near a highway. The plots are clearly demarcated with small concrete pillars. The surrounding area features modern infrastructure and patches of greenery, suggesting a rapidly developing suburban landscape. The lighting is bright and clear, reflecting a sunny afternoon. The color palette emphasizes dependable earthy tones, crisp whites, and deep greens, aligning with a corporate modern real estate aesthetic that promises transparency and solid investment." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCswjjAEd8OvLtcetmN_TddvLBtlIJjZ4SD83Gt8BiRqsplnpLbblTEKWhk4aaV69Zi2yH4nkdhWAFSiLo-sLaKxtOk8ooG9F-8Ry35SDZTvYhB7BEHNlwTEUwhx4IKa3SNrUo-71-bDwmsrqJBtjMfyjGwpDMbxHk-N0_O-zPEu3Vvj6iitvjsI4ULahAdXMrScnDkCjh5bfOHEjkfRlHfmztR2jX3deT_1K6kiIravlNMYVSqFS0Lp1Af414KNrcktwy1nZCYEmc')"></div>
+<div class="absolute top-stack-sm left-stack-sm flex flex-col gap-unit">
+<span class="bg-tertiary text-on-tertiary px-stack-sm py-unit rounded-sm font-caption text-caption flex items-center gap-unit w-max">
+<span class="material-symbols-outlined text-[16px]" data-icon="verified">verified</span> Verified Land
+                            </span>
+<span class="bg-secondary text-on-secondary px-stack-sm py-unit rounded-sm font-caption text-caption flex items-center gap-unit w-max">
+<span class="material-symbols-outlined text-[16px]" data-icon="description">description</span> Transparent Paperwork
+                            </span>
+</div>
+</div>
+<div class="p-stack-lg flex-grow flex flex-col">
+<div class="flex justify-between items-start mb-stack-md">
+<div>
+<h3 class="font-title-lg text-title-lg text-primary mb-unit">Heritage Greens</h3>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-unit">
+<span class="material-symbols-outlined text-[18px]" data-icon="location_on">location_on</span> Kushinagar Highway
+                                </p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-stack-sm mb-stack-lg bg-surface-container-low p-stack-sm rounded border border-outline-variant/50">
+<div class="flex flex-col">
+<span class="font-caption text-caption text-on-surface-variant">Plot Size</span>
+<span class="font-label-md text-label-md text-primary">1500 Sq. Ft.</span>
+</div>
+<div class="flex flex-col">
+<span class="font-caption text-caption text-on-surface-variant">Facing</span>
+<span class="font-label-md text-label-md text-primary">North</span>
+</div>
+</div>
+<div class="mt-auto flex items-end justify-between pt-stack-md border-t border-outline-variant/30">
+<div>
+<span class="block font-caption text-caption text-on-surface-variant">Starting Price</span>
+<span class="font-headline-md text-headline-md text-primary">₹22.0L</span>
+</div>
+<button class="border border-primary text-primary px-stack-md py-stack-sm rounded font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-colors">
+                                Request Details
+                            </button>
+</div>
+</div>
+</article>
+<!-- Card 3 -->
+<article class="bg-surface border border-outline-variant rounded-lg overflow-hidden flex flex-col hover:shadow-lg transition-shadow duration-300 group">
+<div class="relative h-64 overflow-hidden bg-surface-variant">
+<div class="bg-cover bg-center w-full h-full group-hover:scale-105 transition-transform duration-500" data-alt="A wide-angle, ground-level photograph of a premium commercial plot ready for development. The land is pristine, with rich brown soil, bordered by a newly constructed, smooth asphalt road. The sky above is a dramatic gradient of twilight blues and soft oranges, casting a premium, aspirational glow over the site. The composition is highly structured and architectural, conveying stability and a 'permanent residence' feel, utilizing the design system's muted neutrals and deep forest green accents." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCwo8OCxcoSqcOnstedaUSXYPwwOz7N9ghq5Du-ngaY7uTdxxToX6RUIlpHjTFiGyA0g3cfyStfpXt7v9rDnb84o3vhuN-y9Jr7B6faGPLDRtiuKyZnGpfyXX8KbDswum4ykGZ6YqA-mQASDK4uRVpDo5XHcOEB1P4FjwzpDR6TBl6HSevIc6NE8z64TXh5vgk0HlP5hhxLIHr1D6KL-YtwNcRrmsFVVWYEGBG-oXzeJdcJo3d02huPy17754tma62L20ywkAQdBnY')"></div>
+<div class="absolute top-stack-sm left-stack-sm flex flex-col gap-unit">
+<span class="bg-tertiary text-on-tertiary px-stack-sm py-unit rounded-sm font-caption text-caption flex items-center gap-unit w-max">
+<span class="material-symbols-outlined text-[16px]" data-icon="verified">verified</span> Verified Land
+                            </span>
+<span class="bg-secondary text-on-secondary px-stack-sm py-unit rounded-sm font-caption text-caption flex items-center gap-unit w-max">
+<span class="material-symbols-outlined text-[16px]" data-icon="description">description</span> Transparent Paperwork
+                            </span>
+</div>
+</div>
+<div class="p-stack-lg flex-grow flex flex-col">
+<div class="flex justify-between items-start mb-stack-md">
+<div>
+<h3 class="font-title-lg text-title-lg text-primary mb-unit">Buddha Vihar Ext.</h3>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-unit">
+<span class="material-symbols-outlined text-[18px]" data-icon="location_on">location_on</span> Near Buddha Temple, Kushinagar
+                                </p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-stack-sm mb-stack-lg bg-surface-container-low p-stack-sm rounded border border-outline-variant/50">
+<div class="flex flex-col">
+<span class="font-caption text-caption text-on-surface-variant">Plot Size</span>
+<span class="font-label-md text-label-md text-primary">2000 Sq. Ft.</span>
+</div>
+<div class="flex flex-col">
+<span class="font-caption text-caption text-on-surface-variant">Facing</span>
+<span class="font-label-md text-label-md text-primary">West</span>
+</div>
+</div>
+<div class="mt-auto flex items-end justify-between pt-stack-md border-t border-outline-variant/30">
+<div>
+<span class="block font-caption text-caption text-on-surface-variant">Starting Price</span>
+<span class="font-headline-md text-headline-md text-primary">₹30.0L</span>
+</div>
+<button class="border border-primary text-primary px-stack-md py-stack-sm rounded font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-colors">
+                                Request Details
+                            </button>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Client Testimonials -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface">
+<div class="max-w-container-max mx-auto">
+<!-- Testimonials Header -->
+<div class="text-center mb-stack-lg">
+<h2 class="font-headline-md-mobile md:font-headline-md text-headline-md-mobile md:text-headline-md text-primary mb-unit">What Our Clients Say</h2>
+<div class="w-16 h-1 bg-secondary mx-auto"></div>
+</div>
+<!-- Testimonials Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Testimonial 1 -->
+<div class="bg-surface-container-lowest p-stack-lg rounded border border-outline-variant shadow-sm">
+<div class="flex text-secondary mb-stack-sm">
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md italic">"Munna Singh made our property registry completely hassle-free. Truly the most trusted name in Kushinagar."</p>
+<div>
+<div class="font-label-md text-label-md text-primary">Rajesh K.</div>
+<div class="font-caption text-caption text-on-surface-variant">Kasia</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-surface-container-lowest p-stack-lg rounded border border-outline-variant shadow-sm">
+<div class="flex text-secondary mb-stack-sm">
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md italic">"The transparency in their dealings is unmatched. We bought our first plot here and the experience was excellent."</p>
+<div>
+<div class="font-label-md text-label-md text-primary">Amit S.</div>
+<div class="font-caption text-caption text-on-surface-variant">Padrauna</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-surface-container-lowest p-stack-lg rounded border border-outline-variant shadow-sm">
+<div class="flex text-secondary mb-stack-sm">
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md italic">"Highly professional team. They guided us through every legal step of the land purchase. Highly recommended."</p>
+<div>
+<div class="font-label-md text-label-md text-primary">Priyanka M.</div>
+<div class="font-caption text-caption text-on-surface-variant">Kushinagar</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-stack-lg px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-gutter bg-primary text-on-primary">
+<div class="col-span-1 md:col-span-4 mb-stack-md border-b border-primary-fixed/20 pb-stack-sm">
+<span class="font-headline-md text-headline-md font-bold text-on-primary">Bhumi Developer</span>
+</div>
+<div>
+<p class="font-body-md text-body-md text-on-primary/80 mb-stack-sm">
+                © 2024 Bhumi Developer. 10 Years of Excellence in Kushinagar.
+            </p>
+</div>
+<div class="flex flex-col space-y-stack-sm">
+<a class="font-body-md text-body-md text-on-primary/80 hover:text-secondary-fixed transition-colors opacity-80 hover:opacity-100" href="#home">Home</a>
+<a class="font-body-md text-body-md text-on-primary/80 hover:text-secondary-fixed transition-colors opacity-80 hover:opacity-100" href="#about">About</a>
+</div>
+<div class="flex flex-col space-y-stack-sm">
+<a class="font-body-md text-body-md text-on-primary/80 hover:text-secondary-fixed transition-colors opacity-80 hover:opacity-100" href="#properties">Properties</a>
+<a class="font-body-md text-body-md text-on-primary/80 hover:text-secondary-fixed transition-colors opacity-80 hover:opacity-100" href="#">Privacy Policy</a>
+</div>
+</footer>
+</body></html>
